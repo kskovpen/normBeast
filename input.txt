@@ -1,0 +1,18 @@
+[FILE] ../plot/treeFinal/mc.root ../plot/treeFinal/data.root
+[BKG]
+#[FILE] ../plot/treeFinal/zjets.root ../plot/treeFinal/data.root
+#[BKG] ../plot/treeFinal/top.root ../plot/treeFinal/dbx.root
+[CHAN] 0
+[TREE] trSel trSel
+#[VAR] mt mw mjj_min drjj_min mll zpt
+#[TYPE] F F F F F F F
+#[HNB] 30 30 30 30 30 30
+#[HMIN] 20 0 0 0 0 70 0
+#[HMAX] 400 140 150 4 110 150
+[VAR] mt mw mjj_min zpt
+[TYPE] F F F F
+[HNB] 30 30 30 30
+[HMIN] 20 0 0 0
+[HMAX] 400 140 150 150
+[WEIGHT] weight
+[NITER] 20
